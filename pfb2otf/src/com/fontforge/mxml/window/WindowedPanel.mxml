@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx" width="250" height="200" 
+			   creationComplete="initComponent()">
+	<fx:Script source="scripts/windowedPanel.as" />
+	<fx:Script source="scripts/droppable.as" />
+	<fx:Script source="scripts/process.as" />
+	<s:BorderContainer id="droppable" x="10" y="10" width="228" height="154" backgroundColor="0xd1e0f2">
+		<s:Label x="53" y="65" text="Drop Files Here" fontWeight="bold" fontSize="16" />
+	</s:BorderContainer>
+</s:TitleWindow>

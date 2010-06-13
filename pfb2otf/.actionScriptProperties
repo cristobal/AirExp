@@ -15,7 +15,11 @@
   <theme themeIsDefault="false" themeIsSDK="true" themeLocation="${SDK_THEMES_DIR}/frameworks/themes/Wireframe"/>
   <applications>
     <application path="Main.mxml">
-      <airExcludes/>
+      <airExcludes>
+        <airExclude path="Contents/Mac Os/.DS_Store"/>
+        <airExclude path="Contents/.DS_Store"/>
+        <airExclude path=".DS_Store"/>
+      </airExcludes>
     </application>
   </applications>
   <modules/>
